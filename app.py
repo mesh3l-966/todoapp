@@ -20,6 +20,7 @@ class Todo(db.Model):
 
 #db.create_all()
 #should not used when we use flask_migrate
+
 """
 @app.route('/todos/create', methods=['GET'])
 def create_todo():
